@@ -1,0 +1,35 @@
+if ...else
+# 1. Even or odd
+num = 7
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+
+# 2. Pass or fail
+marks = 42
+if marks >= 50:
+    print("Passed")
+else:
+    print("Failed")
+
+# 3. Adult or minor
+age = 15
+if age >= 18:
+    print("Adult")
+else:
+    print("Minor")
+
+# 4. Larger of two numbers
+a, b = 10, 25
+if a > b:
+    print(a, "is larger")
+else:
+    print(b, "is larger")
+
+# 5. Password check
+password = "python123"
+if password == "python123":
+    print("Access granted")
+else:
+    print("Wrong password")
