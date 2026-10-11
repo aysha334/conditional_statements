@@ -1,0 +1,25 @@
+simple if 
+# 1. Check positive number
+n = 5
+if n > 0:
+    print("Positive number")
+
+# 2. Check passing marks
+marks = 60
+if marks >= 50:
+    print("Passed")
+
+# 3. Check if a number is even
+num = 8
+if num % 2 == 0:
+    print("Even")
+
+# 4. Check age for voting
+age = 20
+if age >= 18:
+    print("Eligible to vote")
+
+# 5. Check empty list
+items = []
+if len(items) == 0:
+    print("List is empty")
